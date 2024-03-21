@@ -25,7 +25,7 @@ const Page = async () => {
                         <input type="text" placeholder='Enter your verification code' id="txtVerificationCode" name="verificationCode"  />
                     </div>
                     <div className={styles.continue__btn__grid}>
-                        <button className={styles.continue__btn} type="submit">Verify</button>
+                        <Link href={'/prepare'} className={styles.continue__btn}>Verify</Link>
                     </div>
                 </form>
             </div>
