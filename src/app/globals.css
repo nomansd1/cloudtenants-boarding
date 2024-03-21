@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    @apply bg-transparent w-[7px];
+}
+::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-[#0d26b6]
+}
+.main__header {
+    @apply relative flex items-center max-w-screen-xl mx-auto px-4 py-3;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+input:required:invalid,
+input:focus:invalid {
+    background-image: url('../../public/invalid.svg');
+    background-size: 20px;
+    background-position: right center;
+    background-repeat: no-repeat;
+    -moz-box-shadow: none;
+}
+
+input:required:valid {
+    background-image: url('../../public/correct.svg');
+    background-size: 20px;
+    background-position: right center;
+    background-repeat: no-repeat;
+  }
+

@@ -1,0 +1,118 @@
+[
+    {
+      "id": 0,
+      "name": "--SELECT--"
+    },
+    {
+      "id": 1,
+      "name": "Food Products Manufacturing"
+    },
+    {
+      "id": 2,
+      "name": "Grocery and Specialty Stores\n"
+    },
+    {
+      "id": 3,
+      "name": "Restaurants and Bars"
+    },
+    {
+      "id": 4,
+      "name": "Clothing and Shoe Stores"
+    },
+    {
+      "id": 5,
+      "name": "Hardware and Building Material Dealers"
+    },
+    {
+      "id": 6,
+      "name": "Department Stores"
+    },
+    {
+      "id": 7,
+      "name": "Furniture Stores"
+    },
+    {
+      "id": 8,
+      "name": "Jewelry, Luggage, and Leather Goods"
+    },
+    {
+      "id": 9,
+      "name": "Sporting Goods, Hobby, Books and Music Stores"
+    },
+    {
+      "id": 10,
+      "name": "Wholesale and Distribution"
+    },
+    {
+      "id": 11,
+      "name": "Grocery and Food Wholesalers"
+    },
+    {
+      "id": 12,
+      "name": "Chemicals and Plastics Wholesalers"
+    },
+    {
+      "id": 13,
+      "name": "Textiles, Apparel and Accessories\n"
+    },
+    {
+      "id": 14,
+      "name": "Health, Pharmaceuticals, and Biotech Other\n"
+    },
+    {
+      "id": 15,
+      "name": "Medical Supplies and Equipment"
+    },
+    {
+      "id": 16,
+      "name": "Elementary and Secondary Schools"
+    },
+    {
+      "id": 17,
+      "name": "Colleges and Universities"
+    },
+    {
+      "id": 18,
+      "name": "Agriculture and Mining"
+    },
+    {
+      "id": 19,
+      "name": "Freight Forwarding System."
+    },
+    {
+      "id": 20,
+      "name": "Electronics"
+    },
+    {
+      "id": 21,
+      "name": "MARKETING AND ADVERTISING"
+    },
+    {
+      "id": 22,
+      "name": "Warehousing"
+    },
+    {
+      "id": 23,
+      "name": "Clearing & Customs"
+    },
+    {
+      "id": 24,
+      "name": "Professional & Legal"
+    },
+    {
+      "id": 25,
+      "name": "N/A"
+    },
+    {
+      "id": 26,
+      "name": "Retail Industry"
+    },
+    {
+      "id": 28,
+      "name": "Automobiles"
+    },
+    {
+      "id": 27,
+      "name": "Stationery Product Manufacturing"
+    }
+   ]

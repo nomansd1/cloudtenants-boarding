@@ -1,0 +1,41 @@
+.cont__bx {
+  background: rgb(18,55,216);
+  background: linear-gradient(90deg, rgba(18,55,216,1) 0%, rgba(26,63,223,1) 35%, rgba(38,74,228,1) 100%);
+  @apply h-[100vh] overflow-hidden
+}
+.inner__cont {
+  @apply py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-6 lg:px-12 w-full h-full flex justify-center items-center;
+}
+.bg__anchor {
+  background-color: rgba(255, 255, 255, 0.245); 
+  backdrop-filter: blur(1px);
+  @apply inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm rounded-full text-white;
+}
+.bg__anchor__pill {
+  @apply text-xs rounded-full text-[#0d26b6] px-4 py-1.5 mr-3 bg-white
+}
+.bg__anchor svg {
+  @apply ml-2 w-5 h-5;
+}
+.main__title {
+  line-height: 80px !important;
+  @apply text-white mb-4 text-4xl font-extrabold tracking-tight  md:text-5xl lg:text-6xl md:max-w-4xl mx-auto;
+}
+.main__title span {
+  @apply text-[#0d26b6] bg-white px-4 rounded-md
+}
+.main__text {
+  @apply text-gray-200 mb-8 text-lg font-normal lg:text-xl sm:px-16 xl:px-48;
+}
+.nav__grid {
+  @apply flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4;
+}
+.login__btn {
+  @apply inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg hover:bg-white hover:text-[#0d26b6];
+}
+.login__btn svg {
+  @apply ml-2 -mr-1 w-5 h-5;
+}
+.register__btn {
+  @apply inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-white hover:text-[#0d26b6];
+}

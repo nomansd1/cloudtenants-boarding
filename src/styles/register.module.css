@@ -1,0 +1,80 @@
+.main__cont {
+    @apply bg-[#F8F8FF] relative h-[100vh] overflow-hidden;
+    /* z-index: -2; */
+}
+.curve__bg {
+    background: rgb(18,55,216);
+    background: linear-gradient(90deg, rgba(18,55,216,1) 0%, rgba(26,63,223,1) 35%, rgba(38,74,228,1) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* z-index: -1; */
+    height: 70vh;
+    border-bottom-left-radius: 50% 55%;
+    border-bottom-right-radius: 50% 55%;
+}
+.inner__cont {
+    @apply w-full h-full flex justify-center items-center;
+}
+.register__form {
+    @apply bg-white mx-4 md:mx-0 rounded-md p-4 md:p-8 max-h-[450px] w-full md:w-[500px] flex flex-col -mt-12 shadow-md;
+    z-index: 1000;
+}
+.input__cont {
+    @apply overflow-y-auto flex-1 pr-2
+}
+.main__heading {
+    @apply text-xl font-bold text-gray-800
+}
+.main__intro {
+    @apply text-base font-medium -mt-1 text-gray-600 mb-2
+}
+.input__bx , .verify__input__bx {
+    @apply w-full my-0.5 flex flex-col
+}
+.verify__input__bx {
+    @apply mt-5
+}
+.input__bx label, .verify__input__bx label {
+    @apply text-xs text-gray-800 font-medium
+}
+.input__bx input, 
+.input__bx select {
+    @apply outline-none border-2 border-[#D1D5DB] my-0.5 rounded-sm px-2 py-1.5 text-xs font-medium placeholder:text-[#9CA3AF]
+}
+.terms__bx {
+    @apply flex items-start py-2
+}
+.terms__bx input {
+    @apply w-[40px] h-[20px]
+}
+.terms__info {
+    @apply ml-2 -mt-0.5 text-xs
+}
+.terms__link {
+    @apply underline text-blue-800 font-medium
+}
+
+
+.verify__input__bx input {
+    @apply outline-none border-2 border-[#D1D5DB] my-0.5 rounded-sm px-2 py-3 text-xs font-medium placeholder:text-[#9CA3AF]
+}
+.sub__heading {
+    @apply text-lg font-bold text-gray-800
+}
+.continue__btn__grid {
+    @apply flex items-center justify-end
+}
+.continue__btn {
+    @apply rounded-md px-2 py-2.5 bg-[rgb(18,55,216)] text-white  font-medium text-sm mt-4;
+}
+.wish__avatar {
+    @apply flex justify-center items-center w-full my-8 animate-bounce
+}
+.greet__text {
+    @apply w-full
+}
+.greet__text p {
+    @apply text-sm font-medium text-center flex justify-center items-center
+}
