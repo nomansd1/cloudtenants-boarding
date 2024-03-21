@@ -134,7 +134,7 @@ const RegisterComponent = () => {
                         </div>
                     </div>
                     <div className={styles.continue__btn__grid}>
-                        <button className={styles.continue__btn} type="submit" aria-disabled={pending}>{pending}Continue</button>
+                        <Link href={'/verification'} className={styles.continue__btn}>Continue</Link>
                     </div>
                 </form>
             </div>
